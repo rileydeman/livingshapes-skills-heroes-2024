@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    #headerLogo {
+        aspect-ratio: 1/1;
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    #menu {
+        width: 75%;
+
+        .menuItem {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: .5% 0;
+            padding: .5% 0;
+
+            p {
+                font-family: futura-bold;
+                font-size: 2em;
+            }
+
+            &:hover {
+                p {
+                    color: #FF3CAC;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,71 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #projects-repeater {
+        width: 100%;
+        height: 95%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 49.5% 49.5%;
+        grid-template-rows: 49.5% 49.5%;
+        gap: 1%;
+
+        .pRepItem {
+            width: 100%;
+            height: 100%;
+            position: relative;
+
+            .pRepItemBackground {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                overflow: hidden;
+                scroll-behavior: smooth;
+
+                border-radius: 10px;
+
+                figure {
+                    width: 100%;
+                    height: 100%;
+
+                    display: flex;
+                    flex-direction: column;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        flex-shrink: 0;
+                    }
+                }
+            }
+
+            figcaption {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+
+                transition: .5s ease;
+
+                width: 100%;
+                padding: .75% 1%;
+
+                background-color: #00000050;
+
+                border-radius: 0 0 10px 10px;
+
+                .title {
+                    font-family: futura-bold;
+                    font-size: 1.5em;
+                }
+            }
+
+            &:hover {}
+        }
+    }
+}
