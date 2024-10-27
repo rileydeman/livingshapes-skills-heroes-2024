@@ -42,7 +42,7 @@ It is always better to request permission before using something from this produ
 
 This software has created with the following technical services:
 - OS: Windows 11 (and/or 10)
-- IDE: Visual Studio Code and PHPstorm (by jetbrains)
+- IDE: PHPstorm (by jetbrains)
 - Localhost: Xampp (Apache and MySQL)
 - Browser: OperaGX & Google Chrome
 - Languages (programming): HTML, CSS, JS, PHP & SQL
